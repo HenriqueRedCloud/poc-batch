@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet-core8", "dotnet-core8", "{E044EE17-253C-42A6-932C-ACF5451CF7FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C8647732-6D25-4C39-AAA7-485F54808CD8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BatchProcessor", "dotnet-core8\src\BatchProcessor\BatchProcessor.csproj", "{619D0142-C6D6-4E13-913B-C95C68F210DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{619D0142-C6D6-4E13-913B-C95C68F210DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619D0142-C6D6-4E13-913B-C95C68F210DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619D0142-C6D6-4E13-913B-C95C68F210DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619D0142-C6D6-4E13-913B-C95C68F210DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8647732-6D25-4C39-AAA7-485F54808CD8} = {E044EE17-253C-42A6-932C-ACF5451CF7FA}
+		{619D0142-C6D6-4E13-913B-C95C68F210DE} = {C8647732-6D25-4C39-AAA7-485F54808CD8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE9F702E-20C3-4FB8-BE4C-6810119499A6}
+	EndGlobalSection
+EndGlobal

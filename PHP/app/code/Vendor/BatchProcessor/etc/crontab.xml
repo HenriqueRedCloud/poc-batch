@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="default">
+        <job name="batch_process_products" instance="Vendor\BatchProcessor\Cron\BatchProcess" method="execute">
+            <schedule>0 * * * *</schedule> <!-- Every hour -->
+        </job>
+    </group>
+</config>
